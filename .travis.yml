@@ -2,3 +2,7 @@ language: node_js
 node_js:
   - "iojs"
   - "6"
+script: node tests/test.js
+branches:
+  only:
+    - travis_testing
